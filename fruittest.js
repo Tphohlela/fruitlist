@@ -29,10 +29,10 @@ describe('Fruit list game factory function', () => {
 
                 const result1 = 'Cherry' in obj;
 
-                let{Cherry:result2} = obj
+                const{Cherry:result2} = obj
 
                 assert.equal(true, result1);
-                
+
                 assert.equal("🍒", result2);
             });
         });
